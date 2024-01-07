@@ -1,0 +1,37 @@
+DELETE http://localhost/admin/customers/3 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Content-Length: 2
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+X-XSRF-TOKEN: eyJpdiI6IlNid21RbGhZa093ZXVDZlBWMjZLOUE9PSIsInZhbHVlIjoidEg5TitJMVpFc05TbnlOcHFSQVNqOGRRbkpJRlNhWmhBaitXbGx3RG5Ea0t1L3lOTmZMa1NpTUdsZDVrZ2tZaFd4Q2d6S3dRTTBpcDhhdVB2VzhPckxRclBOdU16SnRBdWJLY2Faa2xmbjF4c3RzZWdSZVZWMGtYOC82S3krQUkiLCJtYWMiOiJmMzE4MTRjYzYwNzcwNGE1YjU0ZTAyNDI3MmQzZjFiZTY4MzcyN2UyYWUyNTFmYzcxNzE2ODcwM2JjOTcyM2RlIiwidGFnIjoiIn0=
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost/admin/customers
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Pycharm-2ae9fb4=1f64688f-9ed2-4d77-b147-adcf0fe78e59; beike_version={%22current%22:%221.4.0%22%2C%22latest%22:%221.5.0%22%2C%22release_date%22:%222023-12-22%22%2C%22has_new_version%22:true}; XSRF-TOKEN=eyJpdiI6IlNid21RbGhZa093ZXVDZlBWMjZLOUE9PSIsInZhbHVlIjoidEg5TitJMVpFc05TbnlOcHFSQVNqOGRRbkpJRlNhWmhBaitXbGx3RG5Ea0t1L3lOTmZMa1NpTUdsZDVrZ2tZaFd4Q2d6S3dRTTBpcDhhdVB2VzhPckxRclBOdU16SnRBdWJLY2Faa2xmbjF4c3RzZWdSZVZWMGtYOC82S3krQUkiLCJtYWMiOiJmMzE4MTRjYzYwNzcwNGE1YjU0ZTAyNDI3MmQzZjFiZTY4MzcyN2UyYWUyNTFmYzcxNzE2ODcwM2JjOTcyM2RlIiwidGFnIjoiIn0%3D; beikeshop_session=eyJpdiI6Im9wU0NxeUNLWC9WVXhaY1ZxUU5vVlE9PSIsInZhbHVlIjoibXdSVHppRGw3Zy9xRVZCa3R5Wm1jbTdkZlRmNUxiY1pWOUlNQkhFQ0hoRENlcU1QOGJWRWNpT3JsMkRNUENnL1M0bDN2WUkzcDFFbzRLMDV5L3cyZmhoOWVuekpzSy9SNm1NNGY0VG9mMVhwZ1g2Zmo4S2hIeTRIWWd6UEZEK1UiLCJtYWMiOiJmYzE3YmMzZDhjYWRjZWUwYTJlNmJiNzU0ZDM1OGQzNDNmNzAyMWJmMWFkZTY5MjkyZDVkZDAyNTlhMGE4MGE1IiwidGFnIjoiIn0%3D
+
+{}
+HTTP/1.1 200 OK
+Date: Thu, 04 Jan 2024 15:09:42 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImdET0tyMS8rYXZ2eXVOcHpXeW5TRGc9PSIsInZhbHVlIjoiYjc1NWRrc1JrUTk3NnNzRkJibnN1blNBaFNHbU9tZ1krUDBEblRUZm16YUI5a2xIaGhkRFlTWUhXS0JrMFdYUjRSRDBoa3hqMGxWRGtEWDJxdnFRYnFQRzRzYkZ4VEN2YzllRGhxeUFBMVhKeG1CU3NaaldCMlpVMkdUbVlwcmoiLCJtYWMiOiIzMDc0NGQ5MThlMzQzMTlmYTQ0M2U3NzE0YWZhMjgxNmUwNDdmZmVjMzYxYzQ0NDk0NmVhYzg2Yzc5NDIwNmRhIiwidGFnIjoiIn0%3D; expires=Thu, 04-Jan-2024 17:09:42 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: beikeshop_session=eyJpdiI6IjBuTjJQaFY0RENFbC9xa0VWMHVNK0E9PSIsInZhbHVlIjoiZVB3S3dBdnFHb0tZWVd5TnVmcDAxMWFtaDYvSGxHSldxS3Z5ZW9LUGFhSk9Cc1ZtcVpibG8xSGN0STVIaXlQQ0RscVNsNlNSa2ZNY0pXRzB4cWx0WW1id0NpMWRKdmtWYmpQWkVBWGNIV2lDN3lZSEcrSENZNmNkbXVISlVpZEciLCJtYWMiOiIxODY3ZmU5NzYxMmU2YTUwMzc4NTlmZjAzYTY4M2RhN2E1NTdkMmUzNjFkNWYwNjM1OGY3NWVmZDc4NjNhMzdiIiwidGFnIjoiIn0%3D; expires=Thu, 04-Jan-2024 17:09:42 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json
+
+44
+{"status":"success","message":"\u5220\u9664\u6210\u529f!","data":[]}
+0
+
