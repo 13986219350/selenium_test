@@ -15,7 +15,7 @@ if __name__ == '__main__':
     pytest.main([
         '-sv',  # 执行过程的细节打印
         'tests/test_account.py::TestLogin',  # 执行的测试用力
-        # '-n 1',  # 多线程执行
+        '-n 4',  # 多线程执行
         '-p pytest_ordering',
         '--alluredir=./allure-results/{}'.format(formatted_time),  # allure报告生成
         '--clean-alluredir',  # 如果allure报告的目录已存在则清除
